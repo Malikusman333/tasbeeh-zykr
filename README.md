@@ -46,6 +46,4 @@ App will be available at:
 
 http://localhost:5173
 =======
-# tasbeeh-zykr
-Tasbeeh &amp; Ziykr Web App
->>>>>>> a85280cc4774fe9ce2053b74b3fe729c2bcce450
+
