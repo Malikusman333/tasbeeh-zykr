@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 import Navbar from "./sections/navbar";
 import Hero from "./sections/Hero";
@@ -14,7 +14,7 @@ import Support from "./components/Support";
 import Carousel from "./sections/Carousel";
 import { useTranslation } from "react-i18next";
 import ScrollToTop from "./components/ScrollToTop";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { HelmetProvider } from "react-helmet-async";
 import PageTitle from "./components/PageTitle";
 
 const App = () => {
