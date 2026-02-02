@@ -1,8 +1,9 @@
 
-import ParallaxBackground from "../components/ParallaxBackground";
+
 import HeroText from "../components/HeroText";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import BackgroundComponent from "../components/BackgroundComponent";
 
 const Hero = () => {
  
@@ -11,7 +12,7 @@ const Hero = () => {
     <section className="relative min-h-screen overflow-hidden">
       {/* Background First */}
       <div className="absolute inset-0">
-        <ParallaxBackground />
+        <BackgroundComponent/>
       </div>
       <Helmet>
       <title>Zykr | {t("home")}</title>
