@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+@import "tailwindcss";
+
+
+/* Desktop default */
+.text-stroke-green {
+  -webkit-text-stroke: 5px #16A34A;
+  
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .text-stroke-green {
+    -webkit-text-stroke: 3px #16A34A;
+  }
+}
+
+
+
+.font-ui {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-urdu {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
+.font-arabic {
+  font-family: "Noto Naskh Arabic", serif;
+}

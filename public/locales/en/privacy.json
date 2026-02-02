@@ -1,0 +1,59 @@
+{
+  "title": "Privacy Policy",
+  "welcome": "Welcome to Zykr App. Your privacy is very important to us. This Privacy Policy explains how we collect, use, and protect your information when you use our app.",
+  "section1": {
+    "heading": "1. Information We Collect",
+    "items": [
+      "Personal Information: Name, email address, and login credentials you provide when creating an account.",
+      "Usage Data: Your app usage such as tasbeeh counts, groups joined, community contributions, progress, and interaction with app features.",
+      "Device Information: Your device type, operating system, app version, and language preferences."
+    ]
+  },
+  "section2": {
+    "heading": "2. How We Use Your Information",
+    "items": [
+      "To provide and personalize your tasbeeh experience, including default and custom tasbeeh tracking.",
+      "To enable group and community tasbeeh features and show top contributors.",
+      "To send updates, notifications, and newsletters about spiritual growth, app features, and promotions.",
+      "To improve app functionality and performance based on your usage data."
+    ]
+  },
+  "section3": {
+    "heading": "3. Sharing Your Information",
+    "text": "We respect your privacy and do not sell your personal data. We may share your information with:",
+    "items": [
+      "Our trusted service providers for app hosting, analytics, and notifications.",
+      "Community features where your username and contributions may be visible to other users.",
+      "Legal authorities if required by law or to protect our rights."
+    ]
+  },
+  "section4": {
+    "heading": "4. Data Security",
+    "text": "We implement industry-standard security measures to protect your data. While we strive to keep your data safe, no method of transmission or storage is completely secure."
+  },
+  "section5": {
+    "heading": "5. Your Choices",
+    "items": [
+      "You can update your profile, change your language, or manage notification preferences at any time.",
+      "You can delete your account, which will remove your personal information from our servers."
+    ]
+  },
+  "section6": {
+    "heading": "6. Children’s Privacy",
+    "text": "Zykr App is not intended for children under 13 years of age. We do not knowingly collect personal information from children."
+  },
+  "section7": {
+    "heading": "7. Changes to This Privacy Policy",
+    "text": "We may update this policy occasionally to reflect changes in our practices or legal requirements. Any updates will be posted in the app."
+  },
+  "section8": {
+    "heading": "8. Contact Us",
+    "text": "If you have questions about this Privacy Policy or how your data is used, please contact us:",
+    "items": [
+      "Email: support@Zykrapp.com",
+      "Phone: +1 (234) 567-8900",
+      "Address: 123 Spiritual Street"
+    ]
+  },
+  "copyright": "© {{year}} Zykr App. All rights reserved."
+}
