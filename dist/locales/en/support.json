@@ -1,0 +1,32 @@
+{
+  "title": "Support",
+  "heading": "Support & Help Center",
+  "intro": "We are here to help you with any questions, issues, or feedback related to the Zikr App. Feel free to contact us anytime.",
+
+  "email": {
+    "title": "Email Support",
+    "desc": "Contact us via email for detailed support.",
+    "value": "support@zikrapp.com"
+  },
+
+  "phone": {
+    "title": "Phone Support",
+    "desc": "Call us for urgent issues and inquiries.",
+    "value": "+92 300 1234567"
+  },
+
+  "location": {
+    "title": "Our Location",
+    "desc": "Visit us at our office address.",
+    "value": "Karachi, Pakistan"
+  },
+
+  "form": {
+    "title": "Send Us a Message",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "button": "Send Message"
+  }
+}
