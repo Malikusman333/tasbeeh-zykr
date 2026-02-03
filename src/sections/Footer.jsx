@@ -71,7 +71,7 @@ const Footer = () => {
             
             {/* App Store Buttons */}
             <div className="space-y-4 mb-8">
-              <Link to="#" className="flex items-center bg-black text-white px-4 py-3 rounded-xl hover:bg-gray-900 transition-colors">
+              <Link to="#" className="flex items-center bg-black text-white w-50 px-4 py-3 rounded-xl hover:bg-gray-900 transition-colors">
                 <FaApple className="w-6 h-6 mr-3" />
                 <div  className={`${i18n.dir(i18n.language) === "rtl" ? "mr-3" : ""}`}>
                   <div className="text-xs">{t("downloadOnthe")}</div>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
               </Link>
               
-              <Link to="#" className="flex items-center bg-black text-white px-4 py-3 rounded-xl hover:bg-gray-900 transition-colors">
+              <Link to="#" className="flex items-center w-50 bg-black text-white px-4 py-3 rounded-xl hover:bg-gray-900 transition-colors">
                <img src="/assets/playStore.png" className='w-6 h-6 mr-3' alt="" />
                 <div className={`${i18n.dir(i18n.language) === "rtl" ? "mr-3" : ""}`}>
                   <div className="text-xs">{t("getItOn")}</div>
