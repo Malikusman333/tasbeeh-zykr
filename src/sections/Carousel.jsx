@@ -7,83 +7,82 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import { useTranslation } from 'react-i18next';
 
-// Slider data with only images
 const sliderData = [
   {
     id: 1,
-    image: "/assets/1.jpeg", // Tasbeeh/Islamic image
+    image: "/assets/1.jpeg",
   },
   {
     id: 2,
-    image: "/assets/2.jpeg", // Mosque/Islamic art
+    image: "/assets/2.jpeg", 
   },
   {
     id: 3,
-    image: "/assets/3.jpeg", // Prayer/Spiritual
+    image: "/assets/3.jpeg", 
   },
   {
     id: 4,
-    image: "/assets/4.jpeg", // Islamic pattern
+    image: "/assets/4.jpeg", 
   },
   {
     id: 5,
-    image: "/assets/5.jpeg", // Islamic architecture
+    image: "/assets/5.jpeg",
   },
   {
     id: 6,
-    image: "/assets/6.jpeg", // Spiritual light
+    image: "/assets/6.jpeg",
   },
     {
     id: 7,
-    image: "/assets/7.jpeg", // Spiritual light
+    image: "/assets/7.jpeg",
   },
     {
     id: 8,
-    image: "/assets/8.jpeg", // Spiritual light
+    image: "/assets/8.jpeg",
   },
     {
     id: 9,
-    image: "/assets/9.jpeg", // Spiritual light
+    image: "/assets/9.jpeg",
   },
     {
     id: 10,
-    image: "/assets/10.jpeg", // Spiritual light
+    image: "/assets/10.jpeg",
   },
     {
     id: 11,
-    image: "/assets/11.jpeg", // Spiritual light
+    image: "/assets/11.jpeg",
   },
     {
     id: 12,
-    image: "/assets/12.jpeg", // Spiritual light
+    image: "/assets/12.jpeg",
   },
     {
     id: 13,
-    image: "/assets/13.jpeg", // Spiritual light
+    image: "/assets/13.jpeg",
   },
     {
     id: 14,
-    image: "/assets/14.jpeg", // Spiritual light
+    image: "/assets/14.jpeg",
   },
     {
     id: 15,
-    image: "/assets/15.jpeg", // Spiritual light
+    image: "/assets/15.jpeg",
   },
     {
     id: 16,
-    image: "/assets/16.jpeg", // Spiritual light
+    image: "/assets/16.jpeg",
   },
     {
     id: 17,
-    image: "/assets/17.jpeg", // Spiritual light
+    image: "/assets/17.jpeg",
   },
     {
     id: 18,
-    image: "/assets/18.jpeg", // Spiritual light
+    image: "/assets/18.jpeg",
   },
     {
     id: 19,
-    image: "/assets/19.jpeg", // Spiritual light
+    image: "/assets/19.jpeg",
   },
     
     
@@ -96,10 +95,9 @@ const {t,i18n} = useTranslation("carousel");
   return (
     <div className="relative w-full max-w-7xl mx-auto py-16 px-4">
       
-      {/* Background Gradient - Minimal */}
+    
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white -z-10"></div>
       
-      {/* Title - Optional (can remove if not needed) */}
       <div className="text-center mb-12">
         <h1 className={`text-4xl md:text-5xl font-bold text-green-800 ${(i18n.language) === "ur" ? "mb-6" : "mb-3"}` }>
           {t("exploreZikr")} <span className="text-green-600">{t("appFeature")}</span>
@@ -141,7 +139,7 @@ const {t,i18n} = useTranslation("carousel");
             key={item.id} 
             className="!w-[300px] !h-[400px] md:!w-[400px] md:!h-[500px] lg:!w-[400px] lg:!h-[400px]"
           >
-            {/* Card Container - Only Image */}
+            {/* Card Container*/}
             <div className="relative w-full h-full rounded-3xl overflow-hidden">
               
               {/* Image Only */}
@@ -151,7 +149,7 @@ const {t,i18n} = useTranslation("carousel");
                 className="w-full h-full object-contain"
               />
               
-              {/* Optional: Very subtle overlay for better visibility */}
+        
               <div className="absolute inset-0 bg-white/1 group-hover:bg-white/10 transition-all duration-300"></div>
               
             </div>

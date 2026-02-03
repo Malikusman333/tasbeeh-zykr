@@ -10,7 +10,7 @@ const Hero = () => {
   const {t} = useTranslation("navbar");
   return (
     <section className="relative min-h-screen overflow-hidden">
-      {/* Background First */}
+
       <div className="absolute inset-0">
         <BackgroundComponent/>
       </div>
@@ -19,7 +19,7 @@ const Hero = () => {
     </Helmet>
     
       
-      {/* Hero Text on Top */}
+   
       <div className="relative z-10">
         <HeroText />
       </div>

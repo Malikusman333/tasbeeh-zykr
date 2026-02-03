@@ -22,7 +22,7 @@ const Navbar = () => {
       
          
 
-          {/* Desktop Buttons Section (Language Selector + Get Started) */}
+        
           <div className={`hidden xl:flex items-center ${i18n.dir(i18n.language) === "rtl" ? "space-x-reverse" : "space-x-5"}`}>
 
              <nav className="xl:flex items-center hidden">
@@ -58,7 +58,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Mobile Buttons (Get the App + Language Selector + Menu) */}
+        
           <div className="flex xl:hidden items-center space-x-3">
             <div className="flex items-center space-x-2">
               <LanguageSelector/>
@@ -72,7 +72,7 @@ const Navbar = () => {
               className="flex cursor-pointer focus:outline-none xl:hidden p-1 sm:p-2 rounded-lg bg-white transition-colors"
             >
               {isOpen ? (
-                // Green Close Icon
+             
                 <svg 
                   className="w-6 h-6 text-green-800" 
                   fill="none" 
@@ -83,7 +83,7 @@ const Navbar = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               ) : (
-                // Green Hamburger Menu Icon (3 lines)
+            
                 <svg 
                   className="w-6 h-6 text-green-800" 
                   fill="none" 
@@ -99,7 +99,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+     
       {isOpen && (
         <motion.div
           className="fixed inset-x-0 top-[60px] xl:hidden bg-white shadow-xl z-40"
