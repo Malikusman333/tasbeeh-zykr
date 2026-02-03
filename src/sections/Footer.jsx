@@ -117,12 +117,8 @@ const Footer = () => {
               © {new Date().getFullYear()} {t("rightReserved")}
             </div>
             
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link to="/privacy-policy"  className="text-gray-400 hover:text-white text-sm">{t("privacyPolicy")}</Link>
-              <Link to="/terms" className="text-gray-400 hover:text-white text-sm">{t("termsOfService")}</Link>
-              <Link to="/cookies" className="text-gray-400 hover:text-white text-sm">{t("cookiePolicy")}</Link>
-            </div>
-            
+          
+      
             <div className="mt-4 md:mt-0 text-sm text-gray-400">
               {t("lastLine")}
             </div>
