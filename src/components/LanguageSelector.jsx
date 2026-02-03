@@ -42,7 +42,7 @@ useEffect(() => {
       {/* Language button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex items-center gap-2 py-2 text-sm sm:text-base px-3 ml-2 sm:px-4 sm:py-2 text-green-800 bg-white hover:bg-green-400 rounded-lg transition-colors  ${i18n.language === "tr" ? "ml-11" : "ml-0"} ${i18n.language === "ar" ? "mr-4" : "ml-0"}  ${i18n.language === "en" ? "ml-3" : "ml-0"} `}
+        className="flex items-center gap-2 py-2 text-sm sm:text-base px-3 ml-2 sm:px-4 sm:py-2 text-green-800 bg-white hover:bg-green-400 rounded-lg transition-colors "
       >
         <span className="font-medium">{selectedLang.label}</span>
         <svg 
@@ -57,7 +57,7 @@ useEffect(() => {
 
       {/* Dropdown menu */}
       {isOpen && (
-        <div className="absolute top-full mt-1 w-full bg-white border rounded-lg shadow-lg z-10">
+        <div className={`absolute top-full mt-1 w-full bg-white border rounded-lg shadow-lg z-10 ${i18n.language === "ur" ? "pl-20" : ""}`}>
           {languages.map((lng) => (
             <button
               key={lng.code}

@@ -15,15 +15,9 @@ const Navbar = () => {
       <div className={`mx-auto c-space max-w-7xl ${i18n.dir(i18n.language) === "rtl" ? "flex-row-reverse" : "flex-row"}`}>
        <div className={'flex items-center justify-between py-2 xl:py-6 '}>
 
-          <div className="flex items-center space-x-2">
+          <NavLink to={"/" } className="flex items-center space-x-2">
           <img src="/assets/zykr-logo.png" className="h-9 w-12 cursor-pointer sm:w-18 sm:h-11" />
-            <NavLink
-              to="/"
-              className="text-2xl sm:text-4xl font-bold text-green-800  transition-all duration-300"
-            >
-              {t('zikr')}
-            </NavLink>
-          </div>
+          </NavLink>
         
       
          
@@ -33,29 +27,29 @@ const Navbar = () => {
 
              <nav className="xl:flex items-center hidden">
             <NavLink 
-              to="/" 
+              to={"/"} 
               className="px-4 py-2 rounded-lg text-green-800 font-medium hover:bg-black/5 transition-all duration-200"
             >
               {t('home')}
             </NavLink>
             <NavLink 
-              to="/" 
+              to={"/"} 
               className="px-4 py-2 rounded-lg text-green-800 font-medium hover:bg-black/5 transition-all duration-200"
             >
               {t('about')}
             </NavLink>
             <NavLink
-              to="/" 
+              to={"/"} 
               className="px-4 py-2 rounded-lg font-medium text-green-800 hover:bg-black/5 transition-all duration-200"
             >
               {t('services')}
             </NavLink>
-             <a 
-              to="/" 
+             <NavLink
+              to={"/"} 
               className="px-4 py-2 rounded-lg font-medium text-green-800 hover:bg-black/5 transition-all duration-200"
             >
               {t('contact')}
-            </a>
+            </NavLink>
           </nav>
          
             <LanguageSelector/>
@@ -68,7 +62,7 @@ const Navbar = () => {
           <div className="flex xl:hidden items-center space-x-3">
             <div className="flex items-center space-x-2">
               <LanguageSelector/>
-              <button className={`hover:bg-green-400 cursor-pointer text-sm sm:text-base font-medium sm:py-2 sm:px-5 sm:mr-1 rounded-lg text-green-800 bg-white  ${i18n.language === "ur" ? "p-2" : "ml-0"} ${i18n.language === "ar" ? "px-2" : "ml-0"} `}>
+              <button className="hover:bg-green-400 cursor-pointer text-sm sm:text-base font-medium sm:py-2 sm:px-5 sm:mr-1 rounded-lg text-green-800 bg-white p-2">
                 {t('gettheApp')}
               </button>
               
