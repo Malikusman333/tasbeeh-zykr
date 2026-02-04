@@ -108,7 +108,7 @@ const Navbar = () => {
           exit={{ opacity: 0, height: 0 }}
           transition={{ duration: 0.3 }}
         >
-          <div className="container mx-auto px-4 py-6">
+          <div className="container mx-auto px-4 py-">
             <nav className="flex flex-col items-center">
               <a href="/" className="py-4 w-full text-center border-b border-gray-100 text-gray-800 hover:text-green-700">Home</a>
               <a href="/about" className="py-4 w-full text-center border-b border-gray-100 text-gray-800 hover:text-green-700">About</a>
